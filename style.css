@@ -1,0 +1,71 @@
+body {
+  background-color: lightgrey;
+  width: 60%;
+  margin: 5% auto;
+}
+
+section {
+  font-size: 15px;
+  border-style: solid;
+  border-color: salmon;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+h5 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0 0;
+}
+
+button {
+  width: 100px;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: salmon;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+  padding: 7px 10px;
+}
+
+#inputF, #inputC, #inputK {
+  padding: 5px 10px;
+  height: 40px;
+}
+
+#button-reset {
+  background-color: red;
+}
+
+.description {
+  color: grey;
+  font-size: 10px;
+}
+
+
+/* Table */
+
+table, th, td {
+  font-size: 15px;
+  border: 0.5px solid darkgrey;
+  margin: 1% 2%;
+}
+
+th {
+  padding: 10px 60px;
+}
+
+.newcell {
+  padding-left: 5px;
+}
+
+.newcellSymbol {
+  text-align: center;
+  color: darkblue;
+}

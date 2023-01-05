@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Temperature calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="./style.css"  rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/dd5873cad7.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div id="alert" class="alert alert-primary" role="alert">This is a non-numeric input</div>
+
+    <h5>Please provide input for Celcius, Fahrenheit or Kelvin</h5>
+
+    <p class="description">Temperature in Fahrenheit</p>
+    <section id="inputF">
+    </section>
+
+    <p class="description">Temperature in Celcius</p>
+    <section id="inputC">
+    </section>
+
+    <p class="description">Temperature in Kelvin</p>
+    <section id="inputK">
+    </section>
+
+    <button id="button-calculate">Calculate</button>
+    <button id="button-save">Save</button>
+    <button id="button-reset">Reset</button>
+
+    <table id="mytable">
+      <thead>
+        <tr>
+          <th>Fahrenheit</th>
+          <th>Celcius</th>
+          <th>Kelvin</th>
+          <th>Symbol</th>
+        </tr>
+      </thead>
+    </table>
+
+  <script src="main.js"></script>
+  </body>
+</html>
