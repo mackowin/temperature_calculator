@@ -10,7 +10,7 @@ CodeCademy Project: build a temperature converter
 
 ## General Info ##
 One of the projects in Web Development path.
-Build a simple calcultaor to convert temperature between Celcius, Kelvin and Fahrenheit.
+Build a simple calculator to convert temperature between Celcius, Kelvin and Fahrenheit.
 
 ## Technologies Used ##
 * HTML
